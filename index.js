@@ -37,7 +37,7 @@ client.on('messageCreate', async (message) => {
         voiceChannel.members.forEach(member => {
             member.voice.setMute(true).catch(err => console.log('Error Muting'));
         });
-        message.channel.send('🤫 قاع سكات! (Among Us Mode)');
+        message.channel.send('🤫 قاع سكات!');
     }
 
     // أمر فك الميوت
